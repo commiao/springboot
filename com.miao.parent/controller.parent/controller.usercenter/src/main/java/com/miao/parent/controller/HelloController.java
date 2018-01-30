@@ -1,7 +1,7 @@
 package com.miao.parent.controller;
 
-import com.miao.parent.bean.BoyProperties;
-import com.miao.parent.bean.Properties;
+import com.miao.parent.basic.business.entity.BoyProperties;
+import com.miao.parent.basic.business.entity.Properties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

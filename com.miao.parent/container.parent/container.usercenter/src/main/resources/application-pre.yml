@@ -1,0 +1,15 @@
+server:
+  port: 8090
+  context-path: /springboot
+
+boy:
+  name: jingmiao
+  age: 29
+  content: content:${name},age:${age}
+
+spring:
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false

@@ -1,0 +1,8 @@
+server:
+  port: 9090
+  context-path: /springboot
+
+boy:
+  name: jingmiao
+  age: 29
+  content: content:${name},age:${age}
